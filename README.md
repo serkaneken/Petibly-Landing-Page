@@ -1,9 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+It'll be admin panel of Petibly. Related Person can create, read, update, delete something.
+![Petibly-Logo](https://user-images.githubusercontent.com/30027922/64480380-363e5180-d1cf-11e9-8e70-92a796238e84.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
 
+
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.<br>
