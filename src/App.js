@@ -2,18 +2,18 @@ import React from 'react';
 import logo from './logo.png';
 import './App.css';
 
-function App() {
+function App( { width, height } ) {
   return (
+  
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header style={ {paddingBottom: ( height / width * 100 ) + '%'} }  className="App-header">
+      <img src={logo} alt="logo" className="App" />
         <b>
-         ÇOK YAKINDA GELİYOR...
+         Working on process<br/>
+         We're targeting adoption of animals on that project in Istanbul. 
         </b>
-      
       </header>
     </div>
   );
 }
-
 export default App;
